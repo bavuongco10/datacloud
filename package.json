@@ -1,0 +1,19 @@
+{
+  "name": "datacloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "fastify start -l info server/app.js",
+    "dev": "fastify start -l info -P server/app.js"
+  },
+  "keywords": [],
+  "author": "bui thanh ba vuong",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.0.0",
+    "fastify-plugin": "^1.5.0",
+    "fastify-autoload": "^1.0.0",
+    "fastify-cli": "^1.1.0"
+  }
+}
